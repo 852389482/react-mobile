@@ -1,0 +1,15 @@
+/*
+css var
+name: -- + name
+--color:red
+*/
+:root {
+  /* 全局变量 */
+  --main-color: red;
+}
+.box {
+  /* 局部变量 */
+  --box-font-size: 30px;
+  color: var(--main-color);
+  font-size: var(--box-font-size);
+}
